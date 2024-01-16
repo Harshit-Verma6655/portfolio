@@ -447,6 +447,7 @@ span{
     footer{
         padding: 2rem 3%;
     }
+   
 }
 
 @media (max-width:768px){
@@ -504,8 +505,8 @@ span{
     .about img{
         /* width: 70vw;
         margin-top:4rem; */
-        width: 0;
-        height: 0;
+        width: 300px;
+        height: auto;
     }
 
     .services h2{
@@ -525,6 +526,12 @@ span{
     .portfolio-container{
         grid-template-columns: 1fr;
     }
+
+
+    .about-img img{
+        width: 300px;
+        height: auto;
+    }
 }
 
 @media (max-width:450px){
@@ -534,6 +541,10 @@ span{
 
     .contact form .input-box input{
         width: 100%;
+    }
+    .about-img img{
+        width: 300px;
+        height: auto;
     }
 }
 
@@ -546,8 +557,8 @@ span{
         width: 90vw;
     } */
     .about-img img{
-        width: 0;
-        height: 0;
+        width: 300px;
+        height: auto;
     }
 
     .footer{
